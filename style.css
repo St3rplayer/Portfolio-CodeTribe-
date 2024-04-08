@@ -1,0 +1,123 @@
+/* Add your CSS styles here */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('_19fddeaa-f33b-4279-9f10-a96403a7f62c.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(51,51,51,0.7);
+    color: #fff;
+    padding: 20px;
+    display: flex; /*Align items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline;
+    justify-content: space-between;
+}
+
+.nav__item:first-child {
+    margin-left: 0;
+}
+
+.nav__item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav__item a:hover {
+background-color: #007bff;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Add spacing between nav items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first nav item */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    color: #333;
+}
+
+.project P {
+    color: #666;
+}
+
+#about,
+#contact {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#about h2,
+#contact {
+    color: #333;
+}
+
+#about p,
+#contact p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
