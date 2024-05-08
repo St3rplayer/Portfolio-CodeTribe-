@@ -95,6 +95,18 @@ main {
     color: #666;
 }
 
+.image{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.wrapper::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #about,
 #contact {
     background-color: #fff;
@@ -112,6 +124,15 @@ main {
 #about p,
 #contact p {
     color: #666;
+}
+
+.container {
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
